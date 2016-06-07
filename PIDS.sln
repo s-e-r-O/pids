@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{E329E81D-2529-2FE1-D56F-F6D2004DEBC0}") = "PIDS", "Assembly-CSharp-firstpass.csproj", "{90B7A8A9-1A07-7184-A888-DB73377445FC}"
+EndProject
+Project("{E329E81D-2529-2FE1-D56F-F6D2004DEBC0}") = "PIDS", "Assembly-CSharp.csproj", "{930EBE78-DFA2-58F1-E211-96908135AF1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90B7A8A9-1A07-7184-A888-DB73377445FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90B7A8A9-1A07-7184-A888-DB73377445FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90B7A8A9-1A07-7184-A888-DB73377445FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90B7A8A9-1A07-7184-A888-DB73377445FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{930EBE78-DFA2-58F1-E211-96908135AF1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{930EBE78-DFA2-58F1-E211-96908135AF1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{930EBE78-DFA2-58F1-E211-96908135AF1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{930EBE78-DFA2-58F1-E211-96908135AF1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
