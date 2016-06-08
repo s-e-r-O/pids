@@ -1,9 +1,8 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{E329E81D-2529-2FE1-D56F-F6D2004DEBC0}") = "PIDS", "Assembly-CSharp-firstpass.csproj", "{90B7A8A9-1A07-7184-A888-DB73377445FC}"
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pids.CSharp.Plugins", "pids.CSharp.Plugins.csproj", "{997D4EBD-4480-C3B6-6A5D-DFC7B151AC8F}"
 EndProject
-Project("{E329E81D-2529-2FE1-D56F-F6D2004DEBC0}") = "PIDS", "Assembly-CSharp.csproj", "{930EBE78-DFA2-58F1-E211-96908135AF1A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pids.CSharp", "pids.CSharp.csproj", "{C28A67C0-2C72-0A6C-E617-25B8973B4DBA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,8 +21,5 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
