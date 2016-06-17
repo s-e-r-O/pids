@@ -11,6 +11,10 @@ public class Cursor : MonoBehaviour {
 		this.mainCamera = GameObject.FindWithTag ("MainCamera");
 	}
 
+	void Update(){
+		this.getPointedObject ();
+	}
+
 	GameObject getPointedObject(){
 		int x = Screen.width / 2;
 		int y = Screen.height / 2;
