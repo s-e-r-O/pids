@@ -11,7 +11,12 @@ public class Cursor : MonoBehaviour {
 		this.mainCamera = GameObject.FindWithTag ("MainCamera");
 	}
 
+	void Update(){
+		this.getPointedObject ();
+	}
+
 	public GameObject getPointedObject(){
+
 		int x = Screen.width / 2;
 		int y = Screen.height / 2;
 		Ray ray = this.mainCamera.GetComponent<Camera>().ScreenPointToRay (new Vector3 (x, y));
