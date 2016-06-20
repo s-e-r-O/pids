@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Pids\pids\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 C:\Pids\pids\Temp\bin\Debug\Assembly-CSharp.dll
 C:\Pids\pids\Temp\bin\Debug\Assembly-CSharp.pdb
@@ -21,3 +22,53 @@ C:\Pids\pids\Temp\bin\Debug\UnityEngine.Networking.xml
 C:\Pids\pids\obj\Debug\Assembly-CSharp.dll
 C:\Pids\pids\obj\Debug\Assembly-CSharp.pdb
 C:\Pids\pids\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+=======
+<<<<<<< HEAD
+C:\Users\fabio\Documents\unity\Proyecto de ingenieria de software\pids\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\fabio\Documents\unity\Proyecto de ingenieria de software\pids\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\fabio\Documents\unity\Proyecto de ingenieria de software\pids\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\fabio\Documents\unity\Proyecto de ingenieria de software\pids\Temp\bin\Debug\System.Web.dll
+C:\Users\fabio\Documents\unity\Proyecto de ingenieria de software\pids\Temp\bin\Debug\UnityEditor.dll
+C:\Users\fabio\Documents\unity\Proyecto de ingenieria de software\pids\Temp\bin\Debug\UnityEngine.dll
+C:\Users\fabio\Documents\unity\Proyecto de ingenieria de software\pids\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\fabio\Documents\unity\Proyecto de ingenieria de software\pids\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\fabio\Documents\unity\Proyecto de ingenieria de software\pids\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\fabio\Documents\unity\Proyecto de ingenieria de software\pids\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\fabio\Documents\unity\Proyecto de ingenieria de software\pids\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\fabio\Documents\unity\Proyecto de ingenieria de software\pids\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\fabio\Documents\unity\Proyecto de ingenieria de software\pids\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\fabio\Documents\unity\Proyecto de ingenieria de software\pids\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\fabio\Documents\unity\Proyecto de ingenieria de software\pids\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\fabio\Documents\unity\Proyecto de ingenieria de software\pids\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\fabio\Documents\unity\Proyecto de ingenieria de software\pids\Temp\bin\Debug\UnityEngine.xml
+C:\Users\fabio\Documents\unity\Proyecto de ingenieria de software\pids\Temp\bin\Debug\UnityEditor.xml
+C:\Users\fabio\Documents\unity\Proyecto de ingenieria de software\pids\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\fabio\Documents\unity\Proyecto de ingenieria de software\pids\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\fabio\Documents\unity\Proyecto de ingenieria de software\pids\obj\Debug\Assembly-CSharp.dll
+C:\Users\fabio\Documents\unity\Proyecto de ingenieria de software\pids\obj\Debug\Assembly-CSharp.pdb
+=======
+C:\Users\i3\Documents\Unity\PIDS\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\i3\Documents\Unity\PIDS\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\i3\Documents\Unity\PIDS\Temp\bin\Debug\System.Web.dll
+C:\Users\i3\Documents\Unity\PIDS\Temp\bin\Debug\UnityEditor.dll
+C:\Users\i3\Documents\Unity\PIDS\Temp\bin\Debug\UnityEngine.dll
+C:\Users\i3\Documents\Unity\PIDS\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\i3\Documents\Unity\PIDS\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\i3\Documents\Unity\PIDS\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\i3\Documents\Unity\PIDS\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\i3\Documents\Unity\PIDS\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\i3\Documents\Unity\PIDS\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\i3\Documents\Unity\PIDS\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\i3\Documents\Unity\PIDS\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\i3\Documents\Unity\PIDS\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\i3\Documents\Unity\PIDS\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\i3\Documents\Unity\PIDS\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\i3\Documents\Unity\PIDS\Temp\bin\Debug\UnityEngine.xml
+C:\Users\i3\Documents\Unity\PIDS\Temp\bin\Debug\UnityEditor.xml
+C:\Users\i3\Documents\Unity\PIDS\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\i3\Documents\Unity\PIDS\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\i3\Documents\Unity\PIDS\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\i3\Documents\Unity\PIDS\obj\Debug\Assembly-CSharp.dll
+C:\Users\i3\Documents\Unity\PIDS\obj\Debug\Assembly-CSharp.pdb
+>>>>>>> f328cb8ac3403bcf2dedb3aca440ad65bd336cbf
+>>>>>>> 8561791c19e9ebbc94aface0cc80b84c7802e44a

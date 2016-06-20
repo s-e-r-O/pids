@@ -2,10 +2,10 @@
 using System.Collections;
 
 public class sceneChanger : MonoBehaviour {
-	[SerializeField] private string sceneName;
+	[SerializeField] private int sceneNum;
 	void OnTriggerEnter(Collider col){
 		if (col.CompareTag ("Player")) {
-			UnityEngine.SceneManagement.SceneManager.LoadScene (sceneName);
+			LoadingScreenManager.LoadScene (sceneNum);
 		}
 	}
 
