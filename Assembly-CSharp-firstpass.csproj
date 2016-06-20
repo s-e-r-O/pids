@@ -107,10 +107,17 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="System.Web">
+<<<<<<< HEAD
  <HintPath>C:/Isabella/proyecto ing software/pids/Assets/Plugins/System.Web.dll</HintPath>
  </Reference>
  <Reference Include="System.Web.Services">
  <HintPath>C:/Isabella/proyecto ing software/pids/Assets/Plugins/System.Web.Services.dll</HintPath>
+=======
+ <HintPath>C:/Users/fabio/Documents/unity/Proyecto de ingenieria de software/pids/Assets/Plugins/System.Web.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Web.Services">
+ <HintPath>C:/Users/fabio/Documents/unity/Proyecto de ingenieria de software/pids/Assets/Plugins/System.Web.Services.dll</HintPath>
+>>>>>>> 8e33bc9101b619634bc97d438e4be99d08fbde59
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
