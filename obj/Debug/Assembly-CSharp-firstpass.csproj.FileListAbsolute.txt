@@ -1,6 +1,5 @@
-C:\Pids\pids\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
-C:\Pids\pids\Temp\bin\Debug\Assembly-CSharp.dll
-C:\Pids\pids\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Pids\pids\Temp\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Pids\pids\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
 C:\Pids\pids\Temp\bin\Debug\System.Web.dll
 C:\Pids\pids\Temp\bin\Debug\UnityEditor.dll
 C:\Pids\pids\Temp\bin\Debug\UnityEngine.dll
@@ -18,6 +17,6 @@ C:\Pids\pids\Temp\bin\Debug\UnityEngine.xml
 C:\Pids\pids\Temp\bin\Debug\UnityEditor.xml
 C:\Pids\pids\Temp\bin\Debug\UnityEngine.UI.xml
 C:\Pids\pids\Temp\bin\Debug\UnityEngine.Networking.xml
-C:\Pids\pids\obj\Debug\Assembly-CSharp.dll
-C:\Pids\pids\obj\Debug\Assembly-CSharp.pdb
-C:\Pids\pids\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Pids\pids\obj\Debug\Assembly-CSharp-firstpass.csprojResolveAssemblyReference.cache
+C:\Pids\pids\obj\Debug\Assembly-CSharp-firstpass.dll
+C:\Pids\pids\obj\Debug\Assembly-CSharp-firstpass.pdb
