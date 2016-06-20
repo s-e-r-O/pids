@@ -46,7 +46,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\scripts\Cursor.cs" />
+     <Compile Include="Assets\scripts\Door.cs" />
      <Compile Include="Assets\scripts\LoadingScreenManager.cs" />
+     <Compile Include="Assets\scripts\ManageDoor.cs" />
      <Compile Include="Assets\scripts\SpikeController.cs" />
      <Compile Include="Assets\scripts\sceneChanger.cs" />
      <Compile Include="Assets\torch\scene\script\TorchSlider.cs" />

@@ -15,13 +15,12 @@ public class Cursor : MonoBehaviour {
 		this.getPointedObject ();
 	}
 
-	GameObject getPointedObject(){
+	public GameObject getPointedObject(){
 		int x = Screen.width / 2;
 		int y = Screen.height / 2;
 		Ray ray = this.mainCamera.GetComponent<Camera>().ScreenPointToRay (new Vector3 (x, y));
 		RaycastHit hit;
 		if (Physics.Raycast (ray, out hit, this.maxDistance)) {
-			Debug.Log (hit.collider.gameObject.name);
 			return hit.collider.gameObject;
 		}
 		return null;
