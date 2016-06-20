@@ -46,11 +46,10 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\scripts\Cursor.cs" />
-<<<<<<< HEAD
-     <Compile Include="Assets\scripts\MoveObjects.cs" />
-=======
+     <Compile Include="Assets\scripts\Door.cs" />
      <Compile Include="Assets\scripts\LoadingScreenManager.cs" />
->>>>>>> f328cb8ac3403bcf2dedb3aca440ad65bd336cbf
+     <Compile Include="Assets\scripts\ManageDoor.cs" />
+     <Compile Include="Assets\scripts\MoveObjects.cs" />
      <Compile Include="Assets\scripts\SpikeController.cs" />
      <Compile Include="Assets\scripts\sceneChanger.cs" />
      <Compile Include="Assets\torch\scene\script\TorchSlider.cs" />
