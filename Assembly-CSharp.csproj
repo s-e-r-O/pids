@@ -45,6 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\scripts\CollectObject.cs" />
      <Compile Include="Assets\scripts\Cursor.cs" />
      <Compile Include="Assets\scripts\Door.cs" />
      <Compile Include="Assets\scripts\LoadingScreenManager.cs" />
@@ -71,17 +72,10 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="System.Web">
-<<<<<<< HEAD
- <HintPath>C:/Isabella/proyecto ing software/pids/Assets/Plugins/System.Web.dll</HintPath>
+ <HintPath>C:/Pids/pids/Assets/Plugins/System.Web.dll</HintPath>
  </Reference>
  <Reference Include="System.Web.Services">
- <HintPath>C:/Isabella/proyecto ing software/pids/Assets/Plugins/System.Web.Services.dll</HintPath>
-=======
- <HintPath>C:/Users/fabio/Documents/unity/Proyecto de ingenieria de software/pids/Assets/Plugins/System.Web.dll</HintPath>
- </Reference>
- <Reference Include="System.Web.Services">
- <HintPath>C:/Users/fabio/Documents/unity/Proyecto de ingenieria de software/pids/Assets/Plugins/System.Web.Services.dll</HintPath>
->>>>>>> 8e33bc9101b619634bc97d438e4be99d08fbde59
+ <HintPath>C:/Pids/pids/Assets/Plugins/System.Web.Services.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
