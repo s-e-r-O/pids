@@ -45,13 +45,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\scripts\CollectObject.cs" />
      <Compile Include="Assets\scripts\Cursor.cs" />
      <Compile Include="Assets\scripts\Door.cs" />
      <Compile Include="Assets\scripts\LoadingScreenManager.cs" />
-     <Compile Include="Assets\scripts\ManageDoor.cs" />
      <Compile Include="Assets\scripts\ManageObject.cs" />
-     <Compile Include="Assets\scripts\MoveObjects.cs" />
      <Compile Include="Assets\scripts\SpikeController.cs" />
      <Compile Include="Assets\scripts\TimeT.cs" />
      <Compile Include="Assets\scripts\sceneChanger.cs" />
