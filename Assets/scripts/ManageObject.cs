@@ -36,7 +36,7 @@ public class ManageObject : MonoBehaviour {
 	}
 
 	void manageObject(){
-		if (Input.GetKeyDown (KeyCode.E)) {
+		if (Input.GetButtonDown("Fire1")) {
 			GameObject o = cursor.getPointedObject ();
 			if (o != null) {
 				switch (o.tag) {
@@ -62,7 +62,7 @@ public class ManageObject : MonoBehaviour {
 	}
 
 	void checkDrop(){
-		if(Input.GetKeyDown(KeyCode.E)){
+		if(Input.GetButtonDown("Fire1")){
 			dropObject();
 		}
 	}
