@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class MoveObjects : MonoBehaviour {
+public class ManageObject : MonoBehaviour {
 
 	public Cursor cursor;
 	bool carrying;
@@ -18,13 +18,13 @@ public class MoveObjects : MonoBehaviour {
 		this.showText = false;
 		this.objName = "";
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 		if(carrying){
 			carry (carriedObject);
 			checkDrop ();
-	
+
 		}else{
 			manageObject ();
 		}
@@ -46,6 +46,9 @@ public class MoveObjects : MonoBehaviour {
 				case "Collectable":
 					collect (o);
 					break;
+				case "Door":
+					manageDoor (o);
+					break;
 				}
 			}
 		}
@@ -63,7 +66,7 @@ public class MoveObjects : MonoBehaviour {
 			dropObject();
 		}
 	}
-	
+
 	void dropObject(){
 		carrying = false;
 		//carriedObject.GetComponent<Rigidbody>().isKinematic = false;
@@ -89,4 +92,13 @@ public class MoveObjects : MonoBehaviour {
 		showText = false;
 	}
 
+	void manageDoor(GameObject o){
+		Door d = o.GetComponent<Door> ();
+		if (d != null) {
+			d.manageDoor ();
+		} else {
+			//ESTA PUERTA NO DEBE ABRIRSE
+			Debug.Log ("Esta puerta no se abrira nunca en el juego");
+		}
+	}
 }

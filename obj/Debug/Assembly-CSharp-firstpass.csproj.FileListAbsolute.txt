@@ -1,3 +1,27 @@
+<<<<<<< HEAD
+C:\Pids\pids\Temp\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Pids\pids\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Pids\pids\Temp\bin\Debug\System.Web.dll
+C:\Pids\pids\Temp\bin\Debug\UnityEditor.dll
+C:\Pids\pids\Temp\bin\Debug\UnityEngine.dll
+C:\Pids\pids\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Pids\pids\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Pids\pids\Temp\bin\Debug\Mono.Cecil.dll
+C:\Pids\pids\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Pids\pids\Temp\bin\Debug\Unity.DataContract.dll
+C:\Pids\pids\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Pids\pids\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Pids\pids\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Pids\pids\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Pids\pids\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Pids\pids\Temp\bin\Debug\UnityEngine.xml
+C:\Pids\pids\Temp\bin\Debug\UnityEditor.xml
+C:\Pids\pids\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Pids\pids\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Pids\pids\obj\Debug\Assembly-CSharp-firstpass.csprojResolveAssemblyReference.cache
+C:\Pids\pids\obj\Debug\Assembly-CSharp-firstpass.dll
+C:\Pids\pids\obj\Debug\Assembly-CSharp-firstpass.pdb
+=======
 C:\Users\i3\Documents\Unity\PIDS\Temp\bin\Debug\Assembly-CSharp-firstpass.dll
 C:\Users\i3\Documents\Unity\PIDS\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
 C:\Users\i3\Documents\Unity\PIDS\Temp\bin\Debug\System.Web.dll
@@ -20,3 +44,4 @@ C:\Users\i3\Documents\Unity\PIDS\Temp\bin\Debug\UnityEngine.Networking.xml
 C:\Users\i3\Documents\Unity\PIDS\obj\Debug\Assembly-CSharp-firstpass.csprojResolveAssemblyReference.cache
 C:\Users\i3\Documents\Unity\PIDS\obj\Debug\Assembly-CSharp-firstpass.dll
 C:\Users\i3\Documents\Unity\PIDS\obj\Debug\Assembly-CSharp-firstpass.pdb
+>>>>>>> 8561791c19e9ebbc94aface0cc80b84c7802e44a
