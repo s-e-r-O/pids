@@ -4,13 +4,13 @@ using System.Collections;
 public class Door : MonoBehaviour {
 	public float smooth;
 	float targetRotY;
-	float closedRotY;
+	Quaternion closedRot;
 	bool isMoving;
 	public bool isOpen;
 
 	// Use this for initialization
 	void Start () {
-		this.closedRotY = transform.rotation.eulerAngles.y;
+		this.closedRot = transform.rotation;
 		this.isMoving = false;
 	}
 
@@ -35,22 +35,23 @@ public class Door : MonoBehaviour {
 
 	void move(){
 		if (this.isMoving) {
-			transform.localRotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(0, targetRotY, 0), Time.deltaTime * 
+			transform.localRotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(closedRot.eulerAngles.x, targetRotY, 
+				closedRot.eulerAngles.z), Time.deltaTime * 
 				smooth);
-			if (transform.rotation.y == targetRotY) {
+			if (transform.rotation.eulerAngles.y == targetRotY) {
 				this.isMoving = false;
 			}
 		}
 	}
 
 	void open(){
-		targetRotY = this.closedRotY - 90;
+		targetRotY = this.closedRot.eulerAngles.y - 90;
 		this.isOpen = true;
 		this.isMoving = true;
 	}
 
 	void close(){
-		targetRotY = this.closedRotY;
+		targetRotY = this.closedRot.eulerAngles.y;
 		this.isOpen = false;
 		this.isMoving = true;
 	}
