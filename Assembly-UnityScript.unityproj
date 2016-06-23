@@ -6,10 +6,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{0D8FE6B7-9CF8-678B-0E25-D6B08DDF0B2C}</ProjectGuid>
+    <ProjectGuid>{53C47422-8B19-78AE-4BC0-CA8B2078CCE0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyName>Assembly-UnityScript</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>Assets</BaseDirectory>
@@ -45,17 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\WebService\MyService.cs" />
-     <Compile Include="Assets\scripts\Cursor.cs" />
-     <Compile Include="Assets\scripts\Door.cs" />
-     <Compile Include="Assets\scripts\LoadingScreenManager.cs" />
-     <Compile Include="Assets\scripts\ManageObject.cs" />
-     <Compile Include="Assets\scripts\SpikeController.cs" />
-     <Compile Include="Assets\scripts\TimeT.cs" />
-     <Compile Include="Assets\scripts\sceneChanger.cs" />
-     <Compile Include="Assets\torch\scene\script\TorchSlider.cs" />
-     <Compile Include="Assets\torch\scene\script\Torchslider2.cs" />
-     <Compile Include="Assets\torch\scripts\Torchelight.cs" />
+     <Compile Include="Assets\ServiceDescription\service.js" />
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
      <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
