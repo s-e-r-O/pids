@@ -78,12 +78,6 @@
  <Reference Include="UnityEditor.TreeEditor">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
  </Reference>
- <Reference Include="System.Web">
- <HintPath>C:/Isabella/proyecto ing software/pids/Assets/Plugins/System.Web.dll</HintPath>
- </Reference>
- <Reference Include="System.Web.Services">
- <HintPath>C:/Isabella/proyecto ing software/pids/Assets/Plugins/System.Web.Services.dll</HintPath>
- </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>

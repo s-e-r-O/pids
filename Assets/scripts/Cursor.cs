@@ -11,6 +11,7 @@ public class Cursor : MonoBehaviour {
 		this.mainCamera = GameObject.FindWithTag ("MainCamera");
 	}
 
+
 	void Update(){
 		this.getPointedObject ();
 	}
@@ -24,5 +25,12 @@ public class Cursor : MonoBehaviour {
 			return hit.collider.gameObject;
 		}
 		return null;
+	}
+	public int getX(){
+		return Screen.width / 2;
+	}
+
+	public int getY(){
+		return Screen.height / 2;
 	}
 }

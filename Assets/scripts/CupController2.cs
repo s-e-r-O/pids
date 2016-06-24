@@ -12,10 +12,11 @@ public class CupController2 : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
-        times = 0;
+        times = 3;
         con = 0;
         correctPos = false;
         Ver();
+        times = 0;
     }
 
     // Update is called once per frame

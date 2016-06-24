@@ -4,54 +4,69 @@ using System.Collections;
 public class Door : MonoBehaviour {
 	public float smooth;
 	float targetRotY;
-	float closedRotY;
+	Quaternion closedRot;
 	bool isMoving;
 	public bool isOpen;
+	private AudioSource source;
 
-	// Use this for initialization
+	public AudioClip openingSound;
+	public AudioClip closingSound;
+	public AudioClip blockedSound;
+
+	void Awake(){
+		this.source = GetComponent<AudioSource> ();
+	}
+
 	void Start () {
-		this.closedRotY = transform.rotation.eulerAngles.y;
+		this.closedRot = transform.rotation;
 		this.isMoving = false;
 	}
 
 	void Update(){
-		this.automaticClose();
 		this.move();
 	}
 
 	public void manageDoor(){
-		if (!this.isOpen) {
-			this.open();
-		} else {
-			this.close();
+		if (!this.isMoving) {
+			if (!this.isOpen) {
+				this.open();
+			} else {
+				this.close();
+			}
 		}
 	}
 
-	void automaticClose(){
-		if (this.isOpen) {
-			
-		}
+	IEnumerator automaticClose(){
+		yield return new WaitForSeconds (5);
+		this.close ();
 	}
 
 	void move(){
 		if (this.isMoving) {
-			transform.localRotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(0, targetRotY, 0), Time.deltaTime * 
+			transform.localRotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(closedRot.eulerAngles.x, targetRotY, 
+				closedRot.eulerAngles.z), Time.deltaTime * 
 				smooth);
-			if (transform.rotation.y == targetRotY) {
+			if (Mathf.Abs(transform.rotation.eulerAngles.y - targetRotY) <= 0.5f) {
+				transform.rotation.eulerAngles.Set (closedRot.eulerAngles.x, targetRotY, 
+					closedRot.eulerAngles.z);
 				this.isMoving = false;
 			}
 		}
 	}
 
 	void open(){
-		targetRotY = this.closedRotY - 90;
+		this.source.PlayOneShot (this.openingSound);
+		targetRotY = this.closedRot.eulerAngles.y - 90;
 		this.isOpen = true;
 		this.isMoving = true;
+		StartCoroutine (automaticClose ());
 	}
 
 	void close(){
-		targetRotY = this.closedRotY;
+		this.source.PlayOneShot (this.closingSound);
+		targetRotY = this.closedRot.eulerAngles.y;
 		this.isOpen = false;
 		this.isMoving = true;
+		StopAllCoroutines();
 	}
 }
