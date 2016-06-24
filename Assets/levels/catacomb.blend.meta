@@ -37,6 +37,8 @@ ModelImporter:
     100058: StairsF-3
     100060: StairsF1
     100062: FirstRoom_001
+    100064: F-2_001
+    100066: F-3_001
     400000: //RootNode
     400002: Plane
     400004: Plane_001
@@ -69,6 +71,8 @@ ModelImporter:
     400058: StairsF-3
     400060: StairsF1
     400062: FirstRoom_001
+    400064: F-2_001
+    400066: F-3_001
     2300000: //RootNode
     2300002: Plane
     2300004: Plane_001
@@ -101,6 +105,8 @@ ModelImporter:
     2300058: StairsF-3
     2300060: StairsF1
     2300062: FirstRoom_001
+    2300064: F-2_001
+    2300066: F-3_001
     3300000: //RootNode
     3300002: Plane
     3300004: Plane_001
@@ -133,6 +139,8 @@ ModelImporter:
     3300058: StairsF-3
     3300060: StairsF1
     3300062: FirstRoom_001
+    3300064: F-2_001
+    3300066: F-3_001
     4300000: Plane
     4300002: Plane_001
     4300004: Entrance
@@ -164,6 +172,8 @@ ModelImporter:
     4300056: CurveCat
     4300058: EntranceCat
     4300060: FirstRoom_001
+    4300062: F-2_001
+    4300064: F-3_001
     6400000: //RootNode
     6400002: Plane
     6400004: Plane_001
@@ -196,6 +206,8 @@ ModelImporter:
     6400058: StairsF-3
     6400060: StairsF1
     6400062: FirstRoom_001
+    6400064: F-2_001
+    6400066: F-3_001
     7400000: Default Take
     9500000: //RootNode
   materials:
