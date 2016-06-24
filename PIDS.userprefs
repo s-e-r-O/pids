@@ -2,8 +2,9 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\ManageObject.cs">
     <Files>
+      <File FileName="Assets\scripts\LeerNota.cs" Line="75" Column="23" />
       <File FileName="Assets\scripts\ManageObject.cs" Line="33" Column="27" />
-      <File FileName="Assets\scripts\Door.cs" Line="56" Column="1" />
+      <File FileName="Assets\scripts\Door.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
