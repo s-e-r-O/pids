@@ -60,10 +60,11 @@ public class CupController : MonoBehaviour {
                     //mtext.text = "well done1";
                     correctPos = true;
                 }
-                /*else
+                else
                 {
-                    mtext.text = ">:(";
-                }*/
+                    correctPos = false;
+                    //mtext.text = ">:(";
+                }
                 break;
             case 1:
                 if (times == 2)
@@ -71,10 +72,11 @@ public class CupController : MonoBehaviour {
                     //mtext.text = "well done2";
                     correctPos = true;
                 }
-                /*else
+                else
                 {
-                    mtext.text = ":/";
-                }*/
+                    correctPos = false; 
+                    //mtext.text = ":/";
+                }
                 break;
             case 2:
                 if (times == 3)
@@ -82,10 +84,11 @@ public class CupController : MonoBehaviour {
                     //mtext.text = "well done3";
                     correctPos = true;
                 }
-                /*else
+                else
                 {
-                    mtext.text = ":'(";
-                }*/
+                    correctPos = false;
+                    //mtext.text = ":'(";
+                }
                 break;
             case 3:
                 if (times == 0)
@@ -93,10 +96,11 @@ public class CupController : MonoBehaviour {
                     //mtext.text = "well done4";
                     correctPos = true;
                 }
-                /*else
+                else
                 {
-                    mtext.text = ":S";
-                }*/
+                    correctPos = false;
+                    //mtext.text = ":S";
+                }
                 break;
         }
     }
