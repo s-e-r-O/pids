@@ -29,9 +29,9 @@ public class LeerNota : MonoBehaviour {
 	{
 		if (objetoPlayer.tag == "Player") 
 		{
-			//GameObject obj = cursor.getPointedObject ();
-			//if (obj.CompareTag("Nota")) 
-			//{
+			GameObject obj = cursor.getPointedObject ();
+			if (obj.CompareTag("Nota")) 
+			{
 				showMessage = true;
 				menssage ();
 				if (Input.GetMouseButtonDown(0))//0=click izq, 1= click derecho, 2= rueda del mouse o .GetKeyDown("la letra que queramos")
@@ -43,7 +43,7 @@ public class LeerNota : MonoBehaviour {
 				{
 					Hoja.SetActive(false);
 				}
-			//}
+			}
 		}
 	}
 
