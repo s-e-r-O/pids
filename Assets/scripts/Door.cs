@@ -3,15 +3,20 @@ using System.Collections;
 
 public class Door : MonoBehaviour {
 	public float smooth;
-	float targetRotY;
-	Quaternion closedRot;
-	bool isMoving;
 	public bool isOpen;
-	private AudioSource source;
-
 	public AudioClip openingSound;
 	public AudioClip closingSound;
 	public AudioClip blockedSound;
+
+	float targetRotY;
+	Quaternion closedRot;
+	bool isMoving;
+
+	private AudioSource source;
+
+
+
+	public Keychain kc;
 
 	void Awake(){
 		this.source = GetComponent<AudioSource> ();

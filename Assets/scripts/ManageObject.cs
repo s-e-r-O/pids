@@ -49,6 +49,10 @@ public class ManageObject : MonoBehaviour {
 				case "Door":
 					manageDoor (o);
 					break;
+				case "Puzzle":
+					Square s = o.GetComponent<Square> ();
+					s.handle();
+					break;
 				}
 			}
 		}

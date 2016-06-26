@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{0D8FE6B7-9CF8-678B-0E25-D6B08DDF0B2C}</ProjectGuid>
+    <ProjectGuid>{930EBE78-DFA2-58F1-E211-96908135AF1A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -47,9 +47,13 @@
   <ItemGroup>
      <Compile Include="Assets\scripts\Cursor.cs" />
      <Compile Include="Assets\scripts\Door.cs" />
+     <Compile Include="Assets\scripts\Keychain.cs" />
      <Compile Include="Assets\scripts\LeerNota.cs" />
      <Compile Include="Assets\scripts\LoadingScreenManager.cs" />
      <Compile Include="Assets\scripts\ManageObject.cs" />
+     <Compile Include="Assets\scripts\PuzleSquares\PuzzleTorch.cs" />
+     <Compile Include="Assets\scripts\PuzleSquares\Square.cs" />
+     <Compile Include="Assets\scripts\PuzleSquares\Trigger.cs" />
      <Compile Include="Assets\scripts\SpikeController.cs" />
      <Compile Include="Assets\scripts\TimeT.cs" />
      <Compile Include="Assets\scripts\sceneChanger.cs" />
@@ -73,7 +77,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{9D5E44DC-2D84-F7B1-C5A5-4088AF467443}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{90B7A8A9-1A07-7184-A888-DB73377445FC}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
