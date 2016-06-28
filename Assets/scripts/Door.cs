@@ -3,15 +3,23 @@ using System.Collections;
 
 public class Door : MonoBehaviour {
 	public float smooth;
-	float targetRotY;
-	Quaternion closedRot;
-	bool isMoving;
 	public bool isOpen;
-	private AudioSource source;
+	public bool isBlocked;
+	public int neededKey;
 
 	public AudioClip openingSound;
 	public AudioClip closingSound;
 	public AudioClip blockedSound;
+
+	float targetRotY;
+	Quaternion closedRot;
+	bool isMoving;
+
+	private AudioSource source;
+
+
+
+	public Keychain kc;
 
 	void Awake(){
 		this.source = GetComponent<AudioSource> ();
@@ -55,14 +63,24 @@ public class Door : MonoBehaviour {
 	}
 
 	void open(){
-		this.source.PlayOneShot (this.openingSound);
-		targetRotY = this.closedRot.eulerAngles.y - 90;
-		this.isOpen = true;
-		this.isMoving = true;
-		StartCoroutine (automaticClose ());
+		if (!this.isBlocked) {
+			this.source.PlayOneShot (this.openingSound);
+			targetRotY = this.closedRot.eulerAngles.y - 90;
+			this.isOpen = true;
+			this.isMoving = true;
+			StartCoroutine (automaticClose ());
+		} else {
+			if (kc != null && kc.hasKey(neededKey)) {
+				this.isBlocked = false;
+				this.open ();
+			} else {
+				this.source.PlayOneShot (this.blockedSound);
+			}
+		}
+
 	}
 
-	void close(){
+	public void close(){
 		this.source.PlayOneShot (this.closingSound);
 		targetRotY = this.closedRot.eulerAngles.y;
 		this.isOpen = false;

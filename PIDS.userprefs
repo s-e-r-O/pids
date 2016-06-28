@@ -4,12 +4,20 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\CupController.cs">
     <Files>
       <File FileName="Assets\scripts\TextureChanger.cs" Line="9" Column="23" />
-      <File FileName="Assets\scripts\LeerNota.cs" Line="75" Column="23" />
-      <File FileName="Assets\scripts\ManageObject.cs" Line="33" Column="27" />
-      <File FileName="Assets\scripts\Door.cs" Line="1" Column="1" />
       <File FileName="Assets\scripts\TimeT.cs" Line="1" Column="1" />
       <File FileName="Assets\scripts\PuzzleJarrones.cs" Line="1" Column="1" />
       <File FileName="Assets\scripts\CupController.cs" Line="31" Column="61" />
+      <File FileName="Assets\scripts\PilarPuzzle1\AwitasLevel.cs" Line="27" Column="3" />
+      <File FileName="Assets\scripts\ManageObject.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\Keychain.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\PuzleSquares\Square.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\LeerNota.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\Door.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\PuzleSquares\PuzzleTorch.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\Key.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\TriggerLocker.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\PuzleSquares\Trigger.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\PilarPuzzle1\Pilar.cs" Line="34" Column="22" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
