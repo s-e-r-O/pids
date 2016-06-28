@@ -16,14 +16,15 @@ public class PuzzleJarrones : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        bool aux = seLogro();
-	    if (aux)
+        if (!realizado)
         {
-            realizado = true;
-        }
-        if (realizado)
-        {
-            mytext.text = "Lograste un puzzle!!! :D";
+            realizado = seLogro();
+            if (realizado)
+            {
+                mytext.text = "Lograste un puzzle!!! :D";
+                Destroy(obj);
+                Destroy(obj2);
+            }
         }
 	}
 
@@ -31,9 +32,9 @@ public class PuzzleJarrones : MonoBehaviour {
     {
         bool res = false;
         CupController jarron1 = obj.GetComponent<CupController>();
-        CupController2 jarron2 = obj2.GetComponent<CupController2>();
+        CupController jarron2 = obj2.GetComponent<CupController>();
         bool res1 = jarron1.correctPos;
-        bool res2 = jarron1.correctPos;
+        bool res2 = jarron2.correctPos;
         res = res1 && res2;
         return res;
     }

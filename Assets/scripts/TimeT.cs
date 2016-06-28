@@ -23,7 +23,6 @@ public class TimeT : MonoBehaviour {
     {
         if (Input.GetKey("escape"))
         {
-            //mytext.text = "Fuck";
             Save();
             Application.Quit();
         }
@@ -63,10 +62,8 @@ public class TimeT : MonoBehaviour {
         else
         {
             difference = TimeSpan.Zero;
-            //mytext.text = "What the hell is going on!!!";
         }
-        //mytext.text = "What the hell is going on!!!";
-        mytext.text = difference.ToString();
+        //mytext.text = difference.ToString();
     }
 }
 

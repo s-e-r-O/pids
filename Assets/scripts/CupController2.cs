@@ -1,30 +1,32 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using System;
 
 public class CupController2 : MonoBehaviour {
 
     public int times;
-    public int con;
+    //public int con;
     public GameObject obj;
     public Text mtext;
     public bool correctPos;
+    public GameObject player;
+
     // Use this for initialization
     void Start()
     {
-        times = 3;
-        con = 0;
+        //con = 0;
         correctPos = false;
-        Ver();
         times = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.X))
+        float distance = Vector3.Distance(transform.position, player.transform.position);
+        if (Math.Abs(distance) <= 4 && Input.GetMouseButtonDown(0))
         {
-            con++;
+            //con++;
             times = times % 4;
             if (times == 0)
             {
@@ -56,18 +58,6 @@ public class CupController2 : MonoBehaviour {
         int aux = mytext.number;
         switch (aux)
         {
-            case 0:
-                if (times == 3)
-                {
-                    //mtext.text = "well done1";
-                    correctPos = true;
-                }
-                else
-                {
-                    correctPos = false;
-                    //mtext.text = ">:(";
-                }
-                break;
             case 1:
                 if (times == 0)
                 {
