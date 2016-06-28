@@ -23,7 +23,6 @@ C:\Pids\pids\obj\Debug\Assembly-CSharp.dll
 C:\Pids\pids\obj\Debug\Assembly-CSharp.pdb
 C:\Pids\pids\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
 =======
-<<<<<<< HEAD
 C:\Users\fabio\Documents\unity\Proyecto de ingenieria de software\pids\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 C:\Users\fabio\Documents\unity\Proyecto de ingenieria de software\pids\Temp\bin\Debug\Assembly-CSharp.dll
 C:\Users\fabio\Documents\unity\Proyecto de ingenieria de software\pids\Temp\bin\Debug\Assembly-CSharp.pdb
@@ -46,7 +45,6 @@ C:\Users\fabio\Documents\unity\Proyecto de ingenieria de software\pids\Temp\bin\
 C:\Users\fabio\Documents\unity\Proyecto de ingenieria de software\pids\Temp\bin\Debug\UnityEngine.Networking.xml
 C:\Users\fabio\Documents\unity\Proyecto de ingenieria de software\pids\obj\Debug\Assembly-CSharp.dll
 C:\Users\fabio\Documents\unity\Proyecto de ingenieria de software\pids\obj\Debug\Assembly-CSharp.pdb
-=======
 C:\Users\i3\Documents\Unity\PIDS\Temp\bin\Debug\Assembly-CSharp.dll
 C:\Users\i3\Documents\Unity\PIDS\Temp\bin\Debug\Assembly-CSharp.pdb
 C:\Users\i3\Documents\Unity\PIDS\Temp\bin\Debug\System.Web.dll
