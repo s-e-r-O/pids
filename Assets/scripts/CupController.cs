@@ -1,44 +1,50 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using System;
 
 public class CupController : MonoBehaviour {
 
     public int times;
-    public int con;
+    //public int con;
     public GameObject obj;
     public Text mtext;
     public bool correctPos;
+    public GameObject player;
+    public int ang1;
+    public int ang2;
+    public int ang3;
+    public int ang4;
 	// Use this for initialization
 	void Start () {
-        times = 3;
-        con =  0;
+        //con =  0;
         correctPos = false;
-        Ver();
         times = 0;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        if (Input.GetKeyDown(KeyCode.Z))
+        float distance = Vector3.Distance(transform.position, player.transform.position);
+        if (Math.Abs(distance) <= 4 && Input.GetMouseButtonDown(0))
         {
-            con++;
+            //305 - 35 - 125 - 215
+            //125 - 215 - 305 - 35
             times = times % 4;
             if (times == 0)
             {
-                transform.localEulerAngles = new Vector3(0, 125, 0);
+                transform.localEulerAngles = new Vector3(0, ang1, 0);
             }
             else if (times == 1)
             {
-                transform.localEulerAngles = new Vector3(0, 215, 0);
+                transform.localEulerAngles = new Vector3(0, ang2, 0);
             }
             else if (times == 2)
             {
-                transform.localEulerAngles = new Vector3(0, 305, 0);
+                transform.localEulerAngles = new Vector3(0, ang3, 0);
             }
             else if (times == 3)
             {
-                transform.localEulerAngles = new Vector3(0, 35, 0);
+                transform.localEulerAngles = new Vector3(0, ang4, 0);
             }
             Ver();
             times++;
@@ -54,20 +60,8 @@ public class CupController : MonoBehaviour {
         int aux = mytext.number;
         switch (aux)
         {
-            case 0:
-                if (times == 1)
-                {
-                    //mtext.text = "well done1";
-                    correctPos = true;
-                }
-                else
-                {
-                    correctPos = false;
-                    //mtext.text = ">:(";
-                }
-                break;
             case 1:
-                if (times == 2)
+                if (times == 0)
                 {
                     //mtext.text = "well done2";
                     correctPos = true;
@@ -79,7 +73,7 @@ public class CupController : MonoBehaviour {
                 }
                 break;
             case 2:
-                if (times == 3)
+                if (times == 1)
                 {
                     //mtext.text = "well done3";
                     correctPos = true;
@@ -91,7 +85,7 @@ public class CupController : MonoBehaviour {
                 }
                 break;
             case 3:
-                if (times == 0)
+                if (times == 2)
                 {
                     //mtext.text = "well done4";
                     correctPos = true;
