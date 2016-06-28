@@ -22,7 +22,7 @@ public class Trigger : MonoBehaviour {
 
 	private void turnOffLight(){
 		if (spotlight.intensity > 0.1) {
-			spotlight.intensity *= 0.9f;
+			spotlight.intensity *= 0.6f;
 		} else {
 			spotlight.intensity = 0;
 		}
@@ -30,7 +30,7 @@ public class Trigger : MonoBehaviour {
 
 	private void turnOnLight(){
 		if (spotlight.intensity < 6) {
-			spotlight.intensity /= 0.9f;
+			spotlight.intensity /= 0.6f;
 		} else {
 			spotlight.intensity = 6;
 		}

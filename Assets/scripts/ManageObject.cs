@@ -53,6 +53,10 @@ public class ManageObject : MonoBehaviour {
 					Square s = o.GetComponent<Square> ();
 					s.handle();
 					break;
+				case "Pilar":
+					Pilar p = o.GetComponent<Pilar> ();
+					p.handle();
+					break;
 				}
 			}
 		}

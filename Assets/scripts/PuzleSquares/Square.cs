@@ -19,10 +19,8 @@ public class Square : MonoBehaviour {
 	}
 
 	// Update is called once per frame
-	/*void Update () {
-		//this.move();
-	}
 
+	/*
 	void move(){
 		if (this.isMoving) {
 			if (Vector3.Distance(transform.eulerAngles, targetRot) > 0.01f)
@@ -40,7 +38,7 @@ public class Square : MonoBehaviour {
 
 	public void handle(){
 		//if (!this.isMoving) {
-		this.rotate ();
+		this.initRotation ();
 		if (!pzT.isSolved ()) {
 			if (this.correctState ()) {
 				pzT.tryToSolve ();
@@ -73,8 +71,8 @@ public class Square : MonoBehaviour {
 		return this.state == tryState;
 	}
 
-	void rotate(){
-		transform.Rotate (90, 0, 0);
+	void initRotation(){
+		transform.Rotate (90,0,0);	
 		state = (state + 1) % 4;
 		if (pzT.torchTaken ()) {
 			if (state == wallState) {
@@ -84,4 +82,5 @@ public class Square : MonoBehaviour {
 			}
 		}
 	}
+
 }

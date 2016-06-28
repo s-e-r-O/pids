@@ -11,7 +11,7 @@ public class Keychain : MonoBehaviour {
 		keys = new List<int>();
 	}
 
-	void addKey(int keyCode){
+	public void addKey(int keyCode){
 		this.keys.Add (keyCode);
 	}
 

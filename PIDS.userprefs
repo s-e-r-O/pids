@@ -1,12 +1,18 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\PuzleSquares\PuzzleTorch.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\PilarPuzzle1\Pilar.cs">
     <Files>
-      <File FileName="Assets\scripts\PuzleSquares\Square.cs" Line="61" Column="16" />
+      <File FileName="Assets\scripts\PilarPuzzle1\AwitasLevel.cs" Line="27" Column="3" />
       <File FileName="Assets\scripts\ManageObject.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\Keychain.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\PuzleSquares\Square.cs" Line="1" Column="1" />
       <File FileName="Assets\scripts\LeerNota.cs" Line="1" Column="1" />
       <File FileName="Assets\scripts\Door.cs" Line="1" Column="1" />
-      <File FileName="Assets\scripts\PuzleSquares\PuzzleTorch.cs" Line="26" Column="30" />
+      <File FileName="Assets\scripts\PuzleSquares\PuzzleTorch.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\Key.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\TriggerLocker.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\PuzleSquares\Trigger.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\PilarPuzzle1\Pilar.cs" Line="34" Column="22" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
